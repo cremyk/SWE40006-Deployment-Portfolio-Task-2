@@ -1,6 +1,4 @@
-# SWE40006-Deployment-Portfolio-Task-2
-
-# AWS Cloud Infrastructure & WordPress Deployment Automation
+# Deployment Activity 2: Deployment to the AWS cloud platform 
 An automated, decoupled, and scalable multi-tier WordPress architecture deployed on Amazon Web Services (AWS). 
 
 ---
@@ -9,8 +7,8 @@ An automated, decoupled, and scalable multi-tier WordPress architecture deployed
 
 The deployed cloud infrastructure comprises the following components:
 * **Compute Layer:** Amazon EC2 instances running Amazon Linux 2023.
-* **Database Layer:** Decoupled Amazon RDS (MariaDB 11.8) database instance configured with enforced TLS/SSL transport (`require_secure_transport=ON`).
-* **High Availability & Traffic Distribution:** AWS Application Load Balancer (ALB) distributing inbound HTTP traffic across multiple Availability Zones (`us-east-1a`, `us-east-1b`).
+* **Database Layer:** Decoupled Amazon RDS (MariaDB 11.8) database instance configured with enforced TLS/SSL transport.
+* **High Availability & Traffic Distribution:** AWS Application Load Balancer (ALB) distributing inbound HTTP traffic across multiple Availability Zones.
 * **Elasticity & Automated Recovery:** Amazon EC2 Auto Scaling Group (ASG) governed by a Launch Template to handle automated scale-out, scale-in, and auto-healing instance lifecycle events.
 * **Storage & Disaster Recovery:** Amazon S3 bucket for tar archive backups and S3-backed Amazon Machine Image (AMI) snapshots for instance restoration.
 
